@@ -44,6 +44,13 @@ export default function ContactPage() {
                 </li>
               ))}
             </ul>
+            <div className="mt-6 rounded-xl border border-gray-200 bg-gray-50 p-4">
+              <p className="text-sm font-medium text-gray-900">企业微信二维码</p>
+              <p className="mt-1 text-xs text-gray-500">扫码后可直接发起咨询。</p>
+              <div className="mt-3 overflow-hidden rounded-lg border border-gray-200 bg-white p-2">
+                <img src="/wecom-qr.png" alt="企业微信二维码" className="h-auto w-full rounded-md object-contain" />
+              </div>
+            </div>
           </aside>
 
           <ContactForm />
